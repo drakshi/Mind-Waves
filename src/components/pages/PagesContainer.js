@@ -19,11 +19,11 @@ const PagesContainer = () => {
 
     useEffect(() => {
         const session = sessionStorage.getItem('isMySessionActive');
-        if(!session) {
+        if (!session) {
             navigate('/auth/login');
         }
         else {
-            if(token)
+            if (token)
                 dispatch(getProfile("user/getinfo", {}))
         }
     }, [token]);
@@ -35,16 +35,16 @@ const PagesContainer = () => {
 
     useEffect(() => {
         const now = new Date();
-        const targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16, 0, 0); // 4pm
+        const targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 36, 0); // 4pm
         const timeUntilTarget = targetTime - now;
         if (timeUntilTarget > 0) {
             const timeoutId = setTimeout(() => {
-            const lastShown = localStorage.getItem('popupLastShown');
-            const today = new Date().toDateString();
-            if (lastShown !== today) {
-                setShowPopup(true);
-                localStorage.setItem('popupLastShown', today);
-            }
+                const lastShown = localStorage.getItem('popupLastShown');
+                const today = new Date().toDateString();
+                if (lastShown !== today) {
+                    setShowPopup(true);
+                    localStorage.setItem('popupLastShown', today);
+                }
             }, timeUntilTarget);
             return () => clearTimeout(timeoutId);
         }

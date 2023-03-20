@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Mind Waves  - Future of Workplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ## Submission for ServiceNow CodeToWin 2023 -->
+## Submission for ServiceNow CodeToWin 2023 
 
-## Available Scripts
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55057608/224425835-a1061297-eaa0-4c35-801c-ccebfc4cbf4e.png" alt="Mind Waves Logo" width="50%" />
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## Overview
+The Mind Waves project aims to keep a check and improve employees’ Mental Health and overall well-being. The core idea behind creating a mental health application for the workplace is to address the growing concerns around stress, anxiety, and mental health in the modern workplace.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A deployed version can be checked here: [mindwaves.live](https://www.mindwaves.live/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
+1. Track Your Goals
+2. Employee Assistance Program (EAP)
+3. Mental Health Questionnaire
+4. Engaging Activities
+5. Daily Self-care
+6. View Achievements
+7. Leaderboard
+8. Educational Resources
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Other Features
+1. Google Authentication
+2. Great UI/UX
+3. Completely responsive front end
+4. Real-time updates
+5. Data storage and retrieval
+6. Deployed product
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack and Softwares used
+- `Frontend:`  HTML5, CSS3, JavaScript, MaterialUI, React.js, Redux
+- `Backend:` Node.js 
+- `Database:` MongoDB Atlas
+- `IDE:` Visual Studio Code
+- `Version Control:` Git
+- `Deployment:` AWS
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Third-Party Integration Requirements
+- Google Fit
+- Calendly	
+- Google Authentication
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
+For Deployment, We have used `AWS` as a platform.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A deployed version can be checked here: [mindwaves.live](https://www.mindwaves.live/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation/Environment Setup
+1. Clone this repository in your local system.
+* Open terminal in a new folder and enter the command given below.
+   ```
+   git clone https://github.com/kashishahuja2002/ServiceNow-Code-To-Win.git
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Make sure that Node is installed and updated in your machine.
 
-### Code Splitting
+3. Install dependencies.
+* Open terminal in the cloned folder and enter the commands given below.
+   ```
+   npm install
+   cd .\backend\
+   npm install
+   cd ..
+   ```
+ 
+4. Create build
+* While you are still inside the cloned folder, write the following command in terminal to create build. 
+   ```
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Run the project.
+* Inside the cloned folder, write the following command in terminal to run the application locally. 
+   ```
+   cd .\backend\
+   npm start
+   ```
+   
+5. If everything is done in order, the application will be running at "http://127.0.0.1:8000" or your localhost "http://localhost:8000/".

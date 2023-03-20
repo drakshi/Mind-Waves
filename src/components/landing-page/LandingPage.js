@@ -87,7 +87,7 @@ const LandingPage = () => {
                 <section id="problem" className="xl-gap wf-section">
                     <div className="container w-container">
                         <h2>Mental health care for today’s workforce</h2>
-                        <p>— <span className="cite">MindWaves for Organizations</span> <br/> Employees' well-being directly impacts productivity, culture, retention, and healthcare costs. With MindWaves employers can get job satisfaction, reduce absenteeism, and increase overall workforce productivity. Our application provides the accessible & convenient support employees need to be mentally healthy — so your people (and your business) can thrive.<br /><br />— <span className="cite">MindWaves for Employees</span><br/>MindWaves helps employees who are struggling with stress, anxiety, depression, or other mental health issues to manage their symptoms and improve their overall well-being. Our application provides employees with a comprehensive solution to reduce work stress, manage their mental health and well-being, and implement a positive work-life balance.<br /><br />— <span className="cite">MindWaves for Individuals</span><br/>Individuals who aim to better their mental health and overall wellness, as well as establish positive habits, may utilize MindWaves as a means to attain their objectives.<span className="cite"></span></p>
+                        <p>— <span className="cite">MindWaves for Organizations</span> <br /> Employees' well-being directly impacts productivity, culture, retention, and healthcare costs. With MindWaves employers can get job satisfaction, reduce absenteeism, and increase overall workforce productivity. Our application provides the accessible & convenient support employees need to be mentally healthy — so your people (and your business) can thrive.<br /><br />— <span className="cite">MindWaves for Employees</span><br />MindWaves helps employees who are struggling with stress, anxiety, depression, or other mental health issues to manage their symptoms and improve their overall well-being. Our application provides employees with a comprehensive solution to reduce work stress, manage their mental health and well-being, and implement a positive work-life balance.<br /><br />— <span className="cite">MindWaves for Individuals</span><br />Individuals who aim to better their mental health and overall wellness, as well as establish positive habits, may utilize MindWaves as a means to attain their objectives.<span className="cite"></span></p>
                     </div>
                 </section>
 
@@ -163,7 +163,7 @@ const LandingPage = () => {
                             </div>
                         </div>
 
-                        <br/><p style={{textAlign: "right"}}>and much more...</p>
+                        <br /><p style={{ textAlign: "right" }}>and much more...</p>
                     </div>
                 </section>
 
@@ -240,7 +240,7 @@ const LandingPage = () => {
                     <div className="w-layout-grid grid-three">
                         <div>
                             <div>Gru Sisters</div>
-                            <div>• Kahish Ahuja</div>
+                            <div>• Kashish Ahuja</div>
                             <div>• Ishika Paliwal</div>
                             <div>• Drakshi Chopra</div>
                         </div>
