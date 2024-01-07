@@ -64,7 +64,7 @@ A deployed version can be checked here: [mindwaves.live](https://www.mindwaves.l
 1. Clone this repository in your local system.
 * Open terminal in a new folder and enter the command given below.
    ```
-   git clone https://github.com/kashishahuja2002/ServiceNow-Code-To-Win.git
+   git clone https://github.com/drakshi/Mind-Waves.git
    ```
 
 2. Make sure that Node is installed and updated in your machine.
