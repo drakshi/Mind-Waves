@@ -1,7 +1,6 @@
 # Mind Waves  - Future of Workplace
 
-<!-- ## Submission for ServiceNow CodeToWin 2023 -->
-## Submission for ServiceNow CodeToWin 2023 
+## Submission for CodeToWin hackathon by ServiceNow 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55057608/224425835-a1061297-eaa0-4c35-801c-ccebfc4cbf4e.png" alt="Mind Waves Logo" width="50%" />
@@ -34,6 +33,11 @@ A deployed version can be checked here: [mindwaves.live](https://www.mindwaves.l
 6. Deployed product
 
 
+## Video
+Explore Mind Waves with this product tour video.
+
+https://user-images.githubusercontent.com/55057608/224472167-4f89bdc5-212c-4b68-9303-6caebe35330f.mp4
+
 
 ## Tech Stack and Softwares used
 - `Frontend:`  HTML5, CSS3, JavaScript, MaterialUI, React.js, Redux
@@ -60,7 +64,7 @@ A deployed version can be checked here: [mindwaves.live](https://www.mindwaves.l
 1. Clone this repository in your local system.
 * Open terminal in a new folder and enter the command given below.
    ```
-   git clone https://github.com/drakshi/Mind-Waves.git
+   git clone https://github.com/kashishahuja2002/ServiceNow-Code-To-Win.git
    ```
 
 2. Make sure that Node is installed and updated in your machine.
@@ -88,3 +92,23 @@ A deployed version can be checked here: [mindwaves.live](https://www.mindwaves.l
    ```
    
 5. If everything is done in order, the application will be running at "http://127.0.0.1:8000" or your localhost "http://localhost:8000/".
+
+
+
+## Future Scope
+- `Admin panel`: Create an Admin panel to onboard employees and consultants & set goals for the organization.
+
+- `Custom reminders`: Add feature for users to set custom reminders for breaks and daily activities.
+
+- `Monthly Stats`: Show stats for previous months as well.
+
+- `Mobile Application`: Develop a mobile application for the product.
+
+
+## Documentation
+A complete project report for the system with use case diagram, web flow, relational diagram, etc can be found here: [MindWaves | Project Report](/documents/ProjectReport.pdf).
+
+A presentation for the project can be found here: [MindWaves | Presentation](/documents/Presentation.pdf).
+
+<hr>
+Thank you for such a wonderful hackathon ❤️
